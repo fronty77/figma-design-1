@@ -8,8 +8,186 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>
-      This is a static template, there is no bundler or bundling involved!
-    </h1>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#"><img src="./images/logo.svg" alt="Manage" srcset="" /></a>
+          <button class="mobile-nav-toggle" area-controls="primary-navigation">
+            <img
+              class="icon-hamburger"
+              src="./images/icon-hamburger.svg"
+              alt=""
+              srcset=""
+              area-hidden="true"
+            />
+            <img
+              class="icon-close"
+              src="./images/icon-close.svg"
+              alt=""
+              srcset=""
+              area-hidden="true"
+            />
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" area-expanded="false">
+            <ul role="list" class="nav-list">
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">Career</a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Community</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button class="button | display-sm-none display-md-inline-flex">
+            Get started
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="padding-block-900">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <h1 class="fs-primary-heading fw-bold">
+                Bring everyone together to build better products.
+              </h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Debitis, eius molestias. Porro molestias ipsa fuga est? Rerum,
+                molestiae.
+              </p>
+              <button class="button">Get started</button>
+            </div>
+            <div>
+              <img src="./images/illustration-intro.svg" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="padding-block-900">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <h2 class="fs-secondary-heading fw-bold">
+                What's different about manage?
+              </h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum,
+                cumque voluptates fugit excepturi in vel velit delectus aperiam?
+              </p>
+            </div>
+            <div>
+              <ul role="list" class="numbered-items">
+                <li>
+                  <h3 class="fs-600 fw-bold">Track your progress</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+                    eos veritatis rem!
+                  </p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">Advanced built-in tools</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore magnam laboriosam ipsum quaerat repellendus.
+                  </p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">
+                    Everything you need in one place
+                  </h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Laudantium ab voluptates quod aliquid fugit ducimus mollitia
+                    eius?
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="carousel | padding-block-900">
+        <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
+        <!-- Carousel here -->
+        <button class="button">Get started</button>
+      </section>
+
+      <section class="padding-block-900 bg-accent-400 text-neutral-100">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <p class="fs-secondary-heading fw-bold">
+                Simplify how your team works today
+              </p>
+            </div>
+            <div>
+              <button class="button" data-type="inverted">Get started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-neutral-900 text-neutral-100">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <a href="#">
+                <img src="./images/logo.svg" alt="Managed" />
+              </a>
+              <ul role="list" area-label="Social links">
+                <li><a href="#" area-label="facebook">Facebook</a></li>
+                <li><a href="#" area-label="youtube">Youtube</a></li>
+                <li><a href="#" area-label="twitter">Twitter</a></li>
+                <li><a href="#" area-label="pinterest">Pinterest</a></li>
+                <li><a href="#" area-label="instgram">Instgram</a></li>
+              </ul>
+            </div>
+            <div>
+              <nav class="footer-nav">
+                <ul area-label="Footer" role="list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <footer action="">
+                <input type="email" />
+                <button class="button">Go</button>
+                <p>Copy right 2020. All rights are reserved</p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./main.js"></script>
   </body>
 </html>
